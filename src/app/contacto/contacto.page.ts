@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
 import {
   IonHeader,
   IonToolbar,
@@ -7,13 +6,12 @@ import {
   IonContent,
   IonButtons,
   IonBackButton,
-  IonButton,
 } from '@ionic/angular';
 
 @Component({
-  selector: 'app-acerca',
-  templateUrl: './acerca.page.html',
-  styleUrls: ['./acerca.page.scss'],
+  selector: 'app-contacto',
+  templateUrl: './contacto.page.html',
+  styleUrls: ['./contacto.page.scss'],
   imports: [
     IonHeader,
     IonToolbar,
@@ -21,8 +19,6 @@ import {
     IonContent,
     IonButtons,
     IonBackButton,
-    IonButton,
-    RouterLink,
   ],
 })
-export class AcercaPage {}
+export class ContactoPage {}
